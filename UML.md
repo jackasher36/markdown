@@ -36,7 +36,7 @@
 
 <img src="/Users/leojackasher/Downloads/Screenshot 2024-03-13 at 03.05.08.jpeg" alt="Screenshot 2024-03-13 at 03.05.08" style="zoom:50%;" />
 
-### 时序图
+### 时序图（顺序图）
 
 + 描述各模块调用，方法，程序执行流程
 + 以JavaEE MVC分层为例

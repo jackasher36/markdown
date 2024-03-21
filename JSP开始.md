@@ -205,5 +205,25 @@
   //这是核心打印的地方，所以jsp文件里面都会打印出来
   ```
 
+## JSP内置对象和Page使用
 
+前面我们有使用过<%@page session="false"%>,用于关闭JSP自动创建session对象，那么这样的属性还有哪些？
+
++ ```jsp
+  <%@page errorPage=""%>
+  //当jsp出现异常时，自动跳转页面
+  ```
+
++ ```jsp
+  <%@page iserrorPage="true"%>
+  //将报错信息输出到命令台
+  ```
+
++ ```jsp
+  <%@page conentText="text/html; charset=utf-8"%>
+  ```
+
+我们已经用了几个对象了,request, response,session,exception,printWriter,
+
+还有pageContent,config,servletContext，page
 
